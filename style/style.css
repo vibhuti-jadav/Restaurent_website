@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img{
+    background-image: url(../img/Vector.png);
+    background-size: cover;
+   height: 800px;
+    width: 69%;
+}
