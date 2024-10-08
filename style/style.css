@@ -7,6 +7,35 @@
 .bg-img{
     background-image: url(../img/Vector.png);
     background-size: cover;
-   height: 800px;
+    height: 840px;
     width: 69%;
 }
+
+.p-t{
+    padding-top: 10%;
+}
+.p-l{
+    padding-left: 10%;
+}
+
+.p-r{
+    padding-right: 10%;
+}
+
+.p-b{
+     padding-bottom: 10%;
+}
+
+.p-l-0{
+    padding-left: 0%;
+}
+   
+.p-t-20{
+    padding-top: 20%;
+}
+.p-t-30{
+    padding-top: 30%;
+}
+
+
+
