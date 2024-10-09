@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Merriweather", serif;
 }
 
 .bg-img{
@@ -29,7 +30,9 @@
 .p-l-0{
     padding-left: 0%;
 }
-   
+.p-t-5{
+    padding-top: 5%;
+}   
 .p-t-20{
     padding-top: 20%;
 }
@@ -37,5 +40,26 @@
     padding-top: 30%;
 }
 
+.s-img:before{
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+  
+}
+.s-img:hover::before{
+    background-color: #11151b59;
+}
 
+
+.s-text{
+    z-index: 1000;
+    content: "";
+    position: absolute;
+    display: none;
+
+}
+.s-image:hover .s-text{
+    display: block;
+}
 
