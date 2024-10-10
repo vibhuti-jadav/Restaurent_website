@@ -1,9 +1,10 @@
 $('.responsive').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    speed: 200,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -33,3 +34,4 @@ $('.responsive').slick({
       // instead of a settings object
     ]
   });
+
