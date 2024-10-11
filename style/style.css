@@ -12,11 +12,27 @@
     width: 69%;
 }
 
+
+
 .back1{
     background-color: rgb(11, 23, 39);
 }
 .back2{
     background-color: #f9fafe;
+}
+.back3{
+    background-color:#f9fafe;
+}
+
+.back4{
+    background-color: #fec554 !important;
+}
+.back5{
+    background-color: #e9eaee !important;
+}
+
+.color1{
+    color: #42536c;
 }
 .p-t{
     padding-top: 10%;
@@ -36,6 +52,10 @@
 .p-l-0{
     padding-left: 0%;
 }
+
+.p-l-5{
+    padding-left: 5%;
+}
 .p-t-5{
     padding-top: 5%;
 }   
@@ -45,6 +65,8 @@
 .p-t-30{
     padding-top: 30%;
 }
+
+
 .margin{
 margin-top: 10%;
 
@@ -122,3 +144,13 @@ margin-top: 10%;
 }
 
 
+
+/* -----------------------------media-Quary--------------------------- */
+
+@media(max-width:992px){
+    .pos{
+        position: absolute !important;
+        left: 30% !important;
+        bottom: 0% !important;
+    }
+}
