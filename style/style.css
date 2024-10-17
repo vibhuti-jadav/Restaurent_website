@@ -8,8 +8,8 @@
 .bg-img{
     background-image: url(../img/Vector.png);
     background-size: cover;
-    height: 840px;
-    width: 69%;
+    height: 850px;
+    width: 100%;
 }
 
 .bg-img2{
@@ -25,6 +25,11 @@
 .height{
     height: 100vh !important;
 }
+.height2{
+    height: 146px !important;
+}
+
+
 
 .back1{
     background-color: rgb(11, 23, 39);
@@ -66,7 +71,7 @@
 }
 
 .p-l-5{
-    padding-left: 5%;
+    padding-left: 5% !important;
 }
 .p-l-15{
     padding-left: 15%;
@@ -79,7 +84,10 @@
 }
 .p-t-5{
     padding-top: 5%;
-}   
+}  
+.p-t-15{
+    padding-top: 15%;
+} 
 .p-t-20{
     padding-top: 20%;
 }
@@ -188,6 +196,11 @@ margin-top: 10%;
     left: 0;
 }
 
+
+
+
+
+
 /* --------------------------shadow----------------------------- */
 
 .shadow1{
@@ -212,6 +225,10 @@ margin-top: 10%;
         left: 30% !important;
         bottom: 0% !important;
     }
+
+    .d-992-none{
+        display: none;
+    }
    
 }
 
@@ -230,6 +247,9 @@ margin-top: 10%;
         text-align: start !important;
     }
 
+    .padding-0{
+        padding: 0 !important;
+    }
 
     
    
