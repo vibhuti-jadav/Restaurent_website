@@ -21,12 +21,22 @@
     justify-content: end !important;
     align-items: end !important;
 }
-
-.height{
-    height: 100vh !important;
+@media (min-width:991px){
+   .height{
+    height: 100vh ;
+} 
 }
+
 .height2{
     height: 146px !important;
+}
+
+.color1{
+    color: #42536c !important;
+}
+
+.color2{
+    color: #ff806f !important;
 }
 
 
@@ -47,10 +57,12 @@
 .back5{
     background-color: #e9eaee !important;
 }
-
-.color1{
-    color: #42536c !important;
+.back6{
+    background-color: #ff806f !important;
 }
+
+
+
 .p-t{
     padding-top: 10%;
 }
@@ -63,7 +75,7 @@
 }
 
 .p-b{
-     padding-bottom: 10%;
+     padding-bottom: 10% !important;
 }
 
 .p-l-0{
@@ -83,7 +95,7 @@
     padding-left: 28%;
 }
 .p-t-5{
-    padding-top: 5%;
+    padding-top: 5% !important;
 }  
 .p-t-15{
     padding-top: 15%;
@@ -96,11 +108,15 @@
 }
 
 .p-b-5{
-    padding-bottom:5%;
+    padding-bottom:5% !important;
 }
 
 .p-r-5{
     padding-right: 5%;
+}
+
+.p-0{
+    padding-top: 0% !important;
 }
 
 
@@ -112,6 +128,34 @@
 margin-top: 10%;
 
 }
+
+.m-top-5{
+    margin-top: 5%;
+    
+    }
+    .m-bott-5{
+        margin-bottom: 5%;
+        
+        }
+
+.m-top-1{
+    margin-top: 1% !important;
+    
+    }
+
+    .m-bottom-1{
+        margin-bottom: 2% !important;
+        
+        }
+
+        .m-bottom-18{
+            margin-bottom: 18% !important;
+            
+            }
+            .m-bottom-20{
+                margin-bottom: 20% !important;
+                
+                }
 
 .margin-b{
     margin-bottom: 10% !important;
@@ -206,13 +250,18 @@ margin-top: 10%;
 .shadow1{
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
-
+.shadow2{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   }
+   
 .catering{
     position: absolute !important;
     left: -175px !important;
     top: -93px !important;
     width:600px !important;
 }
+
+
 
 
 
@@ -229,6 +278,14 @@ margin-top: 10%;
     .d-992-none{
         display: none;
     }
+
+    .w-100{
+        width: 100% !important;
+    }
+
+    .b-none{
+        border: none;
+    }
    
 }
 
@@ -237,6 +294,8 @@ margin-top: 10%;
         text-align: center;
         padding-left: 0%;
     }
+
+
 }
 
 @media(max-width:767px){

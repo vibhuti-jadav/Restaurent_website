@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +13,15 @@
     <link rel="stylesheet" href="style/slick-theme.css">
     <link rel="stylesheet" href="fonts/remixicon.css">
 </head>
-<body>
-    
 
-    
+<body>
+
+
+
     <header>
-        <nav class="navbar navbar-expand-lg border   bg-black" data-bs-theme="dark" >
+        <nav class="navbar navbar-expand-lg border   bg-black" data-bs-theme="dark">
             <div class="container ">
-                <a href="" class="navbar-brand fs-3" >
+                <a href="" class="navbar-brand fs-3">
                     <img src="img/logo.png" alt="">
                 </a>
 
@@ -27,50 +29,51 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                    <div class="navbar-collapse collapse gap-5 " id="navbar">
-                <ul class="navbar-nav m-auto ">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-traget="#first-dropdown" data-bs-auto-close="outside" >Home</a>
-                        <ul class="dropdown-menu " id="first-dropdown">
-                            <li><a href="" class="dropdown-item">Header static</a></li>
-                            <li><a href="" class="dropdown-item">Header slider</a></li>
-                            <li><a href="" class="dropdown-item">Youtube background</a></li>
-                            <li><a href="" class="dropdown-item">self hosted vidio</a></li>
-                            <li><a href="" class="dropdown-item">RTL</a></li>
+                <div class="navbar-collapse collapse gap-5 " id="navbar">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                data-bs-traget="#first-dropdown" data-bs-auto-close="outside">Home</a>
+                            <ul class="dropdown-menu " id="first-dropdown">
+                                <li><a href="" class="dropdown-item">Header static</a></li>
+                                <li><a href="" class="dropdown-item">Header slider</a></li>
+                                <li><a href="" class="dropdown-item">Youtube background</a></li>
+                                <li><a href="" class="dropdown-item">self hosted vidio</a></li>
+                                <li><a href="" class="dropdown-item">RTL</a></li>
                             </ul>
-                    </li>
-                
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Pages</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Menu</a>
-                    </li>
+                        </li>
 
 
-                
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Gallary</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Pages</a>
+                        </li>
 
-                <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#examplemodal">
-                    MAKE ARESERVATION
-                </button>
-            </div>
-              
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Menu</a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#examplemodal">
+                        MAKE ARESERVATION
+                    </button>
+                </div>
+
 
             </div>
         </nav>
-    </header> 
+    </header>
 
 
     <!-- ---------------------------------------------------main-section-------------------------------------- -->
@@ -78,126 +81,129 @@
 
     <section>
         <div class="modal fade" id="examplemodal">
-           <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header position-relative">
-                    <div class="col-lg-6  p-2">
-                        <h5 class="p-l-5 border-warning border-start border-4 fw-bold">Make A<br/>
-                            Reservation</h5>
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header position-relative">
+                        <div class="col-lg-6  p-2">
+                            <h5 class="p-l-5 border-warning border-start border-4 fw-bold">Make A<br />
+                                Reservation</h5>
+                        </div>
+                        <div class="col-lg-6  p-0 position-absolute start-50 top-0 start-0  bottom-0 start-0">
+                            <img src="img/pngfind.png" alt="" class="img-fluid rounded ">
+                        </div>
                     </div>
-                    <div class="col-lg-6  p-0 position-absolute start-50 top-0 start-0  bottom-0 start-0">
-                        <img src="img/pngfind.png" alt="" class="img-fluid rounded "  >
-                    </div>
-                </div>
 
 
 
-                <div class="modal-body ">
-                   <div class="container ">
-                        <div class="row">
-                            <div class="col-lg-6  p-2">
-                              <div class="input-group">
-                                <span class="input-group-text"><i class="ri-time-line"></i></span>
-                                
-                                    <select type="text" class="form-select p-0" aria-label="default input example">
-                                        <option value="">Time</option>
-                                        <option value="">09:00 AM</option>
-                                        <option value="">10:00 AM</option>
-                                        <option value="">11:00 AM</option>
-                                        <option value="">12:00 AM</option>
-                                        <option value="">01:00 AM</option>
-                                        <option value="">02:00 AM</option>
-                                        <option value="">03:00 AM</option>
-                                        <option value="">04:00 AM</option>
-                                        <option value="">05:00 AM</option>
-                                        <option value="">06:00 AM</option>
-                                        <option value="">07:00 AM</option>
-                                        <option value="">08:00 AM</option>
+                    <div class="modal-body ">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-lg-6  p-2">
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+
+                                        <select type="text" class="form-select p-0" aria-label="default input example">
+                                            <option value="">Time</option>
+                                            <option value="">09:00 AM</option>
+                                            <option value="">10:00 AM</option>
+                                            <option value="">11:00 AM</option>
+                                            <option value="">12:00 AM</option>
+                                            <option value="">01:00 AM</option>
+                                            <option value="">02:00 AM</option>
+                                            <option value="">03:00 AM</option>
+                                            <option value="">04:00 AM</option>
+                                            <option value="">05:00 AM</option>
+                                            <option value="">06:00 AM</option>
+                                            <option value="">07:00 AM</option>
+                                            <option value="">08:00 AM</option>
                                         </select>
-                                
-                              </div>
-                               
-                            </div>
-                            <div class="col-lg-6  p-2">
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6  p-2">
                                     <div class="input-group">
                                         <span class="input-group-text"><i class="ri-calendar-line "></i></span>
                                         <input type="text" class="form-control" placeholder="dd-mm-yyyy">
                                         <span class="input-group-text"><i class="ri-calendar-2-fill"></i></span>
                                     </div>
-                            </div>
+                                </div>
 
 
-                            <div class="col-lg-6  my-3">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="col-lg-6  my-3">
-                                <input type="text" class="form-control" placeholder="phone">
-                            </div>
+                                <div class="col-lg-6  my-3">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6  my-3">
+                                    <input type="text" class="form-control" placeholder="phone">
+                                </div>
 
 
-                            <div class="col-12 ">
-                                <select type="text" class="form-select " aria-label="default input example">
-                                    <option value="">person</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
-                                    <option value="">5</option>
-                                    <option value="">6</option>
-                                    <option value="">7</option>
-                                    <option value="">8</option>
-                                    <option value="">9</option>
-                                    <option value="">10</option>
-                                    <option value="">10+</option>
+                                <div class="col-12 ">
+                                    <select type="text" class="form-select " aria-label="default input example">
+                                        <option value="">person</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        <option value="">7</option>
+                                        <option value="">8</option>
+                                        <option value="">9</option>
+                                        <option value="">10</option>
+                                        <option value="">10+</option>
                                     </select>
-                            </div>
+                                </div>
 
-                            <div class="col-12  my-3">
-                               <input type="text " class="form-control" placeholder="Email">
+                                <div class="col-12  my-3">
+                                    <input type="text " class="form-control" placeholder="Email">
+                                </div>
                             </div>
                         </div>
-                   </div>
-                  </div>
+                    </div>
 
 
-                  <div class="modal-footer back4">
-                    <p class="p-2 text-start text-body-secondary">Apparently we had reached a great height in the atmos, 
-                        for the sky was a dead black, and the stars had twinkle. 
-                        By which lifts the light.</p>
+                    <div class="modal-footer back4">
+                        <p class="p-2 text-start text-body-secondary">Apparently we had reached a great height in the
+                            atmos,
+                            for the sky was a dead black, and the stars had twinkle.
+                            By which lifts the light.</p>
 
                         <div class="d-grid gap-2 col-10 mx-auto back3 rounded">
                             <button class="btn  text-body-secondary fw-bold " type="button">SUBMIT</button>
-                          </div>
-                  </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-           </div>
         </div>
     </section>
 
 
-<!-- ---------------------------------------------------main-section-------------------------------------- -->
+    <!-- ---------------------------------------------------main-section-------------------------------------- -->
 
     <section>
         <div class="container-fluid border">
-                <div class="row ">
-                    <div class="col-md-4 p-0 border border-warning d-lg-block">
-                        <div class="bg-img ">
-                            <img class="img-fluid p-t-20  p-l" src="img/plate.png" alt="" width="95%" >
-                        </div>
-                    </div>
-                    <div class="col-md-8 p-t-15 p-l ">
-                       <div class="col ">
-                                <div class="fs-1">
-                                    The Spectacle <b>Before Us</b><br/>
-                                    <b>Was Indeed</b> Sublime.
-                                </div>
-                                <p class="fs-6 text-body-secondary">Apparently, we had reached a great height in the atmosphere, for the sky<br/> was a dead black, 
-                                    and which lifts the horizon of the sea to the level of <br/>the spectator on a hillside.</p>
-
-                                    <button class="btn btn-warning text-secondary">ORDER ONLINE</button>
-                                    <button class="btn btn-outline-warning">OUR LOCATION</button>
-                       </div>
+            <div class="row ">
+                <div class="col-md-4 p-0 border border-warning d-lg-block">
+                    <div class="bg-img ">
+                        <img class="img-fluid p-t-20  p-l" src="img/plate.png" alt="" width="95%">
                     </div>
                 </div>
+                <div class="col-md-8 p-t-15 p-l ">
+                    <div class="col ">
+                        <div class="fs-1">
+                            The Spectacle <b>Before Us</b><br />
+                            <b>Was Indeed</b> Sublime.
+                        </div>
+                        <p class="fs-6 text-body-secondary">Apparently, we had reached a great height in the atmosphere,
+                            for the sky<br /> was a dead black,
+                            and which lifts the horizon of the sea to the level of <br />the spectator on a hillside.
+                        </p>
+
+                        <button class="btn btn-warning text-secondary">ORDER ONLINE</button>
+                        <button class="btn btn-outline-warning">OUR LOCATION</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -207,181 +213,316 @@
 
     <h1 class="text-center h1 fw-bold ">Taste Our Foods & Enjoy</h1>
 
-<section class="my-5">
-    <div class="container  my-5">
-      
-        <div class="slider responsive">
-            <div>
-                <!-- <h3>1</h3> -->
-                    <div class="col  p-2" >
+    <section class="my-5">
+        <div class="container  my-5">
+
+            <div class="slider responsive">
+                <div>
+                    <!-- <h3>1</h3> -->
+                    <div class="col  p-2">
                         <div class="s-image position-relative">
-                          <div class=" s-img ">
+                            <div class=" s-img ">
                                 <img src="img/sec.jpg" alt="" class="img-fluid rounded">
 
                                 <div class="s-text">
-                                        <h4 class="h4 text-white">COLD MILK SHAKE JUICE</h4>
-                                        <p class="text-white">with fresh milk</p>
+                                    <h4 class="h4 text-white">COLD MILK SHAKE JUICE</h4>
+                                    <p class="text-white">with fresh milk</p>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                            
-                          
-                           
-                    </div>
-            </div>
-            <div>
-                <!-- <h3>2</h3> -->
-                <div class="col  p-2">
-                    <div class="s-image position-relative">
-                        <div class=" s-img ">
-                              <img src="img/bowl-calcium-cereal.png" alt="" class="img-fluid rounded">
-
-                              <div class="s-text">
-                                      <h4 class="h4 text-white">BLUEBARRY MILK SMOOTHIE</h4>
-                                      <p class="text-white">with fresh paperemint</p>
-                              </div>
-                          </div>  
-                      </div>
-                          
-            </div>
-            </div>
-            <div>
-                <!-- <h3>3</h3> -->
-                <div class="col  p-2">
-                    <div class="s-image position-relative">
-                        <div class=" s-img ">
-                              <img src="img/bowl-delicious-dinner.png" alt="" class="img-fluid rounded">
-
-                              <div class="s-text">
-                                      <h4 class="h4 text-white">SPICY CHIKEN  SPAGHETTI</h4>
-                                      <p class="text-white">served with green chillies</p>
-                              </div>
-                          </div>  
-                      </div>
-                          
-            </div>
-            </div>
-            <div>
-                <!-- <h3>4</h3> -->
-                <div class="col  p-2">
-                    <div class="s-image position-relative">
-                        <div class=" s-img ">
-                              <img src="img/bread-bun-chopping-board.png" alt="" class="img-fluid rounded">
-
-                              <div class="s-text">
-                                      <h4 class="h4 text-white">SMOKED BEAF SUB-SANDWICH</h4>
-                                      <p class="text-white">slow cooked beef sub</p>
-                              </div>
-                          </div>  
-                      </div>
-                          
-            </div>
-            </div>
-            <div>
-                <!-- <h3>5</h3> -->
-                <div class="col  p-2">
-                    <div class="s-image position-relative">
-                        <div class=" s-img ">
-                              <img src="img/antioxidant-beverage-carrot-juice.png" alt="" class="img-fluid rounded">
-
-                              <div class="s-text">
-                                      <h4 class="h4 text-white">PUMKIN SPICE JUICE</h4>
-                                      <p class="text-white">chilled drink  with cinamen</p>
-                              </div>
-                          </div>  
-                      </div>
-                          
-            </div>
-            </div>
-            
-        </div>
-    
-</div>
 
 
-    <section class="my-5" style="background-color: #0b1727; height:270px; position: relative;margin-top: 120px!important;">
-        <div class="container ">
-            <div class="row flex-lg-row flex-row-reverse ">
-                <div class="col-md-6 col-sm-12 col-12 r d-none d-md-block">
-                    <div class="d-flex justify-content-end">
-                         <div class=" overflow-hidden position-absolute" style="bottom:0;">
-                        <img src="img/fried-clipart-transparent-background-7.png" style="width:300px;" >
-                    </div>
-                    </div>
-                   
-                </div>
-                <div class="col-md-6 col-sm-12 col-12">
-                    <div class="p-2  mt-5 ">
-                        <p class="mb-1 fw-bold" style="color:#ffc554;">Hungry?</p>
-                        <h4 class="text-white">We will home deliver!</h4>
-                        <button class="border-0 btn-yellow px-4 py-1 back4 color1 rounded-2 fw-semibold mb-0 mt-3">MAKE AN ORDER</button>
+
                     </div>
                 </div>
+                <div>
+                    <!-- <h3>2</h3> -->
+                    <div class="col  p-2">
+                        <div class="s-image position-relative">
+                            <div class=" s-img ">
+                                <img src="img/bowl-calcium-cereal.png" alt="" class="img-fluid rounded">
+
+                                <div class="s-text">
+                                    <h4 class="h4 text-white">BLUEBARRY MILK SMOOTHIE</h4>
+                                    <p class="text-white">with fresh paperemint</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <!-- <h3>3</h3> -->
+                    <div class="col  p-2">
+                        <div class="s-image position-relative">
+                            <div class=" s-img ">
+                                <img src="img/bowl-delicious-dinner.png" alt="" class="img-fluid rounded">
+
+                                <div class="s-text">
+                                    <h4 class="h4 text-white">SPICY CHIKEN SPAGHETTI</h4>
+                                    <p class="text-white">served with green chillies</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <!-- <h3>4</h3> -->
+                    <div class="col  p-2">
+                        <div class="s-image position-relative">
+                            <div class=" s-img ">
+                                <img src="img/bread-bun-chopping-board.png" alt="" class="img-fluid rounded">
+
+                                <div class="s-text">
+                                    <h4 class="h4 text-white">SMOKED BEAF SUB-SANDWICH</h4>
+                                    <p class="text-white">slow cooked beef sub</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <!-- <h3>5</h3> -->
+                    <div class="col  p-2">
+                        <div class="s-image position-relative">
+                            <div class=" s-img ">
+                                <img src="img/antioxidant-beverage-carrot-juice.png" alt="" class="img-fluid rounded">
+
+                                <div class="s-text">
+                                    <h4 class="h4 text-white">PUMKIN SPICE JUICE</h4>
+                                    <p class="text-white">chilled drink with cinamen</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
+
         </div>
 
-    </section>
 
-    <section class="back2 p-b-5">
+        <section>
+            <div class="container my-5">
+                    <div class="nav nav-underline justify-content-center">
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#one"  class="nav-link active">home</a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#two" class="nav-link">Lunch</a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#three" class="nav-link">dinner</a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#forth" class="nav-link">Dessert</a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#five" class="nav-link">Drinks</a></div>
+                    </div>
 
-  
+                    <div class="tab-content ">
+                        <div class="tab-pane fade show active" id="one">
+                          <div class="container border p-4">
+                                <div class="row row-cols-1 row-cols-lg-3 ">
+                                    <div class="col border-end border-2 p-t-5  p-b">
+                                        <div class="d-flex justify-content-between ">
+                                            <p class="fw-bold">BREAKFAST BOWL</p>
+                                            <p class="color2 fw-bold">$8.50</p>
+                                        </div>
+                                        <p class="color1">Black Bean Cake, Greens, Tomato & <br/>
+                                            Avocado Pico drizzled with Lime<br/>
+                                             Cream (Add egg $1)</p>
 
-    <section class="my-5 p-t-5  back2">
-        <div class="container my-5 p-5">
-            <div class="row  ">
-                <div class="col-xxl-8  textcentermin position-relative">
-                
-                        <img src="img/cateringillustration.png" alt="" class="img-fluid catering  d-none d-xxl-block" >
-                    
+
+                                             <div class="d-flex  justify-content-between">
+                                                <p class="mt-4 fw-bold">EGG SANDWICH</p>
+                                                <p class="color2 fw-bold">$7.50</p>
+                                            </div>
+                                            <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                 Bacon, Tomato, Red Onion, Basil <br/>
+                                                 Pesto, Arugula
+
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BREAKFAST BURRITO</p>
+                                                    <p class="color2 fw-bold">$9.50</p>
+                                                </div>
+                                                <p class="color1">Three Scrambled Eggs, Cheddar, our<br/>
+                                                     Housemade Black Bean Cake, Avocado,<br/>
+                                                      Pico, & Lime Cream</p>
+                                    
+                                    </div>
+                                    <div class="col border-end border-2  p-t-5  p-b">
+                                        <div class="d-flex justify-content-between ">
+                                            <p class="fw-bold">VEGGIE JAMMIE</p>
+                                            <p class="color2">$5.50</p>
+                                        </div>
+                                        <p class="color1">Everything Bagel with our Homemade<br/>
+                                             Tofu Herb Spread, Cucumber Tomato, <br/>
+                                             Red Onion, & Arugula</p>
 
 
-                        <div class="textcentermin">
-                            <p class="text-center  p-l-20 p-t-5  h3 color1 fw-bold textcentermin">Catering</p>
-                        <p class="text-center  p-l-28    h1 fw-bold textcentermin">We Manage Your Events</p>
+                                             <div class="d-flex  justify-content-between">
+                                                <p class="mt-4 fw-bold">BAGEL WITH CREAM CHEESE</p>
+                                                <p class="color2 fw-bold">$6.00</p>
+                                            </div>
+                                            <p class="color1">Plain, Cranberry, or Everything</p>
 
-                        <p class="text-center p-l-28 p-t-5  textcentermin  color1">Allow our Chef to deliver the perfect private dinner or cocktail party<br/>
-                             experience in your home; or let us simply add a little extra flavor to <br/>
-                             your next office meeting, boat trip, or beach picnic. By partnering with<br/>
-                              our sibling location Rosewater Wine & Spirits, we can offer a full array <br/>
-                              of bar services and beverage selections. Email us to learn more.</p>
-                        
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BREAKFAST PASTRIES</p>
+                                                    <p class="color2 fw-bold">$9.00</p>
+                                                </div>
+                                                <p>Three Scrambled Eggs, Cheddar, our<br/>
+                                                     Housemade Black Bean Cake, Avocado, <br/>
+                                                     Pico, & Lime Cream</p>
+
+                                                      <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">FRIED EGG</p>
+                                                        <p class="color2">$9.50</p>
+                                                    </div>
+                                                    <p class="color1">Three Fried Eggs, house hot sauce,<br/>
+                                                         local cheddar mac, lettuce, pickle &<br/>
+                                                          onion on a sesame roll</p>
+                                    </div>
+
+
+                                    <div class="col  p-t-5  p-b">
+
+                                        <div class="d-flex justify-content-between">
+                                            <p class="fw-bold">SMOKED SALMON BAGEL</p>
+                                            <p class="color2 fw-bold">$9.50</p>
+                                        </div>
+                                        <p class="color1">Smoked Salmon, Capers, House Pickled<br/>
+                                             Red Onions, & Cream Cheese served on<br/>
+                                             a Toasted Bagel</p>
+
+
+                                             <div class="d-flex  justify-content-between">
+                                                <p class="mt-4 fw-bold">BREAKFAST JAMMIE</p>
+                                                <p class="color2 fw-bold">$6.50</p>
+                                            </div>
+                                            <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                 Bacon, Tomato, Red Onion, Basil<br/>
+                                                  Pesto, Arugula</p>
+
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                    <p class="color2 fw-bold">$7.50
+
+                                                    </p>
+                                                </div>
+                                                <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                     Salt on Toasted Multigrain</p>
+
+                                                      <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                        <p class="color2 fw-bold">$6.50</p>
+                                                    </div>
+                                                    <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                        Salt on Toasted Multigrain</p>
+                                    </div>
+                                </div>
+                          </div>
                         </div>
-                        
-
-                   
-                </div>
-                <div class="col-xxl-4  ">
-                    <div class="hireus border rounded shadow1 bg-white">
-                        <div class="row ">
-                            <div class="col-12 col-xl-6 col-xxl-12">
-                            <img src="img/pancake_PNG94.png" alt="" class="img-fluid p-l-15" width="80%">
-
-                           
+                        <div class="tab-pane fade" id="two">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
                         </div>
-                        <div class="col-12 col-xl-6 col-xxl-12">
-                            <p class="text-center p-t-5 color1 fw-bold">We Cater in Weddings,<br/>
-                                Corporate Functions<br/>
-                                and Events
-                                
-                                </p>
+                        <div class="tab-pane fade" id="three">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
+                        </div>
+                        <div class="tab-pane fade" id="forth">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
+                        </div>
+                        <div class="tab-pane fade" id="five">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
+                        </div>
+                    </div>
+            </div>
+        </section>
 
-                                <div class="d-grid gap-2 col-8  mx-auto margin-b color1 fw-bold">
-                                    <button class="btn btn-warning " type="button">HIRE US NOW</button>
-                                  </div>
+
+        <section class="my-5"
+            style="background-color: #0b1727; height:270px; position: relative;margin-top: 120px!important;">
+            <div class="container ">
+                <div class="row flex-lg-row flex-row-reverse ">
+                    <div class="col-md-6 col-sm-12 col-12 r d-none d-md-block">
+                        <div class="d-flex justify-content-end">
+                            <div class=" overflow-hidden position-absolute" style="bottom:0;">
+                                <img src="img/fried-clipart-transparent-background-7.png" style="width:300px;">
+                            </div>
                         </div>
+
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <div class="p-2  mt-5 ">
+                            <p class="mb-1 fw-bold" style="color:#ffc554;">Hungry?</p>
+                            <h4 class="text-white">We will home deliver!</h4>
+                            <button
+                                class="border-0 btn-yellow px-4 py-1 back4 color1 rounded-2 fw-semibold mb-0 mt-3">MAKE
+                                AN ORDER</button>
                         </div>
-                        
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+
+        </section>
+
+        <section class="back2 p-b-5">
+
+
+
+            <section class="my-5 p-t-5  back2">
+                <div class="container my-5 p-5">
+                    <div class="row  ">
+                        <div class="col-xxl-8  textcentermin position-relative">
+
+                            <img src="img/cateringillustration.png" alt=""
+                                class="img-fluid catering  d-none d-xxl-block">
+
+
+
+                            <div class="textcentermin">
+                                <p class="text-center  p-l-20 p-t-5  h3 color1 fw-bold textcentermin">Catering</p>
+                                <p class="text-center  p-l-28    h1 fw-bold textcentermin">We Manage Your Events</p>
+
+                                <p class="text-center p-l-28 p-t-5  textcentermin  color1">Allow our Chef to deliver the
+                                    perfect private dinner or cocktail party<br />
+                                    experience in your home; or let us simply add a little extra flavor to <br />
+                                    your next office meeting, boat trip, or beach picnic. By partnering with<br />
+                                    our sibling location Rosewater Wine & Spirits, we can offer a full array <br />
+                                    of bar services and beverage selections. Email us to learn more.</p>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-xxl-4  ">
+                            <div class="hireus border rounded shadow1 bg-white">
+                                <div class="row ">
+                                    <div class="col-12 col-xl-6 col-xxl-12">
+                                        <img src="img/pancake_PNG94.png" alt="" class="img-fluid p-l-15" width="80%">
+
+
+                                    </div>
+                                    <div class="col-12 col-xl-6 col-xxl-12">
+                                        <p class="text-center p-t-5 color1 fw-bold">We Cater in Weddings,<br />
+                                            Corporate Functions<br />
+                                            and Events
+
+                                        </p>
+
+                                        <div class="d-grid gap-2 col-8  mx-auto margin-b color1 fw-bold">
+                                            <button class="btn btn-warning " type="button">HIRE US NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
 
-    <section class="back2  ">
-        <div class="container">
+            <section class="back2  ">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-5 p-1 ">
                             <img src="img/bigimg.jpg" alt="" class="img-fluid rounded">
@@ -390,115 +531,241 @@
                         <div class="col-md-7">
                             <div class="row">
                                 <div class="col-4 p-2 ">
-                                          <div class="">
-                                                 <img src="img/1.jpg" class="img-fluid rounded" alt="">
-                                </div>
-                                   
-                                </div>
-                                <div class="col-4 p-2 ">
-                                          <div class="">
-                                                 <img src="img/2.jpg" class="img-fluid rounded" alt="">
-                                </div>
-                                   
+                                    <div class="">
+                                        <img src="img/1.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+
                                 </div>
                                 <div class="col-4 p-2 ">
-                                          <div class="">
-                                                 <img src="img/3.jpg" class="img-fluid rounded" alt="">
-                                </div>
-                                   
-                                </div>
-                                <div class="col-4 p-2 ">
-                                          <div class="">
-                                                 <img src="img/4.jpg" class="img-fluid rounded" alt="">
-                                </div>
-                                   
+                                    <div class="">
+                                        <img src="img/2.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+
                                 </div>
                                 <div class="col-4 p-2 ">
-                                          <div class="">
-                                                 <img src="img/5.jpg" class="img-fluid rounded" alt="">
-                                </div>
-                                   
+                                    <div class="">
+                                        <img src="img/3.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+
                                 </div>
                                 <div class="col-4 p-2 ">
-                                          <div class="">
-                                                 <img src="img/6.jpg" class="img-fluid rounded" alt="">
+                                    <div class="">
+                                        <img src="img/4.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+
                                 </div>
-                                   
+                                <div class="col-4 p-2 ">
+                                    <div class="">
+                                        <img src="img/5.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="col-4 p-2 ">
+                                    <div class="">
+                                        <img src="img/6.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+
                                 </div>
                             </div>
-                       
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <section class="height position-relative m-bott-5 ">
+
+            <img src="img/soup.png" alt=""
+                class="img-fluid position-absolute top-50 end-0 translate-middle-y d-none d-lg-block" width="40%">
+            <div class="container ">
+
+                <div class="col-lg-7 p-4  ">
+                    <p class="color1 p-t fs-4 fw-bold">About Us</p>
+                    <p class="fs-2 fw-bold">Who Are We?</p>
+                    <p class="color1">We are a chain of theme restaurant founded in 1971 in London. In 1979,<br />
+                        the cafe began covering its walls with rock and roll memorabilia,
+                        a<br /> tradition which expanded to others in the chain.</p>
+                    <button class="btn btn-warning color1 fs-bold ">LEARN MORE</button>
+
+
+                    <div class="row row-cols-2 row-cols-md-3 my-3">
+                        <div class="col  p-3">
+                            <img src="img/user1.png" alt="" class="img-fluid rounded-circle " width="89%">
+
+                            <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
+                            <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
+                        </div>
+                        <div class="col  p-3">
+                            <img src="img/user2.png" alt="" class="img-fluid rounded-circle " width="89%">
+
+                            <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
+                            <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
+                        </div>
+                        <div class="col  p-3">
+                            <img src="img/user3.png" alt="" class="img-fluid rounded-circle " width="89%">
+
+                            <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
+                            <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
+                        </div>
+                        <div class="col  p-3">
+                            <img src="img/user4.png" alt="" class="img-fluid rounded-circle " width="89%">
+
+                            <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
+                            <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
+                        </div>
+                        <div class="col  p-3">
+                            <img src="img/user5.png" alt="" class="img-fluid rounded-circle " width="89%">
+
+                            <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
+                            <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
+                        </div>
+                        <div class="col  p-3">
+                            <img src="img/user6.png" alt="" class="img-fluid rounded-circle " width="89%">
+
+                            <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
+                            <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- --------------------------------------contect------------------------------- -->
+
+
+
+        <section class="p-5 back2 position-relative ">
+            <img src="img/green.png" alt="" class="img-fluid position-absolute bottom-0 start-0 d-none d-xl-block">
+            <div class="container  p-5  position-relative z-3">
+                <div class="text-center p-4">
+                    <p class="fs-4 color1 fs-bold">Location & Timing</p>
+                    <h1 class="p-b-5 fs-1 fs-bold h1">Contact with us</h1>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col  p-2">
+                        <div class="p-3  rounded shadow2 bg-white">
+
+                            <div class="d-flex p-1">
+                                <i class="ri-map-2-line fs-5 color2"></i>
+                                <p class="d-inline text-start  color1   p-l-5">Av. Paz Soldán 290, San<br />
+                                    Isidro, Lima 27 - Peru</p>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="ri-phone-fill fs-5 color2"></i>
+                                <p class="d-inline text-start  color1   p-l-5">+511 442-2777</p>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="ri-mail-unread-line fs-5 color2"></i>
+                                <p class="d-inline text-start p-l-5  color1 m-bottom-20  ">mail@restaurantpro.com</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col  p-2">
+                        <div class="p-3  rounded shadow2 bg-white">
+                            <p class="color2 fs-bold">Hours of service</p>
+
+                            <p class="p-0 m-bottom-1">Monday to Saturday</p>
+                            <p class="p-0 mb-0 m-top-1 color1">1:00 pm - 3:00 pm and</p>
+                            <p class="p-0  color1">7:00 pm - 11:00 pm</p>
+
+
+
+                            <p class="m-bottom-1 m-top-5">Monday to Saturday</p>
+                            <p class="p-0  m-top-1 color1">1:00 pm - 3:00 pm and</p>
+                        </div>
+                    </div>
+                    <div class="col  p-2">
+                        <div class="p-3  rounded shadow2 bg-white position-relative">
+
+                            <img src="img/kisspng-soup.png" alt="" class="position-absolute top-0 end-0 img-fluid"
+                                width="30%">
+                            <p>Telephone support:</p>
+                            <p class="color1">Monday to Saturday from<br />
+                                9:00 am to 9:00 pm</p>
+
+                            <button class="btn btn-warning m-bottom-18 back6 border-0 text-white col-8 mt-1">MAKE A
+                                RESERVATION</button>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- ---------------------------------------------------section-------------------------------------- -->
+        <section class="back5 p-5">
+            <div class="container p-5">
+
+                <div class="row">
+                    <div class="col-12  text-center p-5">
+                        <i class="ri-error-warning-fill fs-1"></i>
+                        <h5 class="my-4 fs-5">Oops! Something went wrong.</h5>
+                        <h6 class="fs-6">This page didn't load Google Maps correctly. See the JavaScript console for
+                            technical details.</h6>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ---------------------------------------------------contact-------------------------------------- -->
+
+        <section class="  p-5 padding-0 back3">
+            <div class="container  p-5 padding-0">
+                <h1 class="text-center p-2 fs-bold">Feel free to drop us a line!</h1>
+                <p class="text-center">Let's talk if you have any query or suggestion. We are open to learn <br /> from
+                    you. So don't hesitate to reach us anytime.</p>
+
+
+                <div class="row row-cols-1 row-cols-md-2 ">
+                    <div class="col ">
+                        <input class="form-control my-3 " type="text" placeholder="Your Name"
+                            aria-label="default input example">
+                        <input class="form-control my-3 " type="text" placeholder="Subject"
+                            aria-label="default input example">
+                        <input class="form-control my-3 " type="text" placeholder="Email Address"
+                            aria-label="default input example">
+                        <div class="form-check my-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Send me a copy
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <textarea class="form-control mt-3 height2" id="exampleFormControlTextarea1"
+                            rows="5.5">Type Your message here</textarea>
+
+                        <div class="d-grid gap-2 col-4 my-3 back1 rounded">
+                            <button class="btn text-white" type="button">GIVE US A SHOT</button>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
-        </div>
-    </section>
-</section>
+        </section>
 
 
-<!-- <section>
-   <div class="container-fluid border  height">
-    
-         <div class="bg-img2">
 
-            
-         </div> 
-
-         <div class="container border">
-
-         </div>
-     
-   </div>
-</section> -->
-
-
-    <section class="back5 p-5">
-        <div class="container p-5">
-
-            <div class="row">
-              <div class="col-12  text-center p-5">
-                <i class="ri-error-warning-fill fs-1"></i>
-                <h5 class="my-4 fs-5">Oops! Something went wrong.</h5>
-                <h6 class="fs-6">This page didn't load Google Maps correctly. See the JavaScript console for technical details.</h6>
-            </div>  
-            </div>
-            
-        </div>
-    </section>
-
-    <!-- ---------------------------------------------------contact-------------------------------------- -->
-
-    <section class="  p-5 padding-0 back3" >
-        <div class="container  p-5 padding-0">
-                <h1 class="text-center p-2 fs-bold">Feel free to drop us a line!</h1>
-                <p class="text-center">Let's talk if you have any query or suggestion. We are open to learn <br/> from you. So don't hesitate to reach us anytime.</p>
-       
-                   
-                        <div class="row row-cols-1 row-cols-md-2 ">
-                            <div class="col ">
-                                <input class="form-control my-3 " type="text" placeholder="Your Name" aria-label="default input example">
-                                <input class="form-control my-3 " type="text" placeholder="Subject" aria-label="default input example">
-                                <input class="form-control my-3 " type="text" placeholder="Email Address" aria-label="default input example">
-                                <div class="form-check my-3">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Send me a copy
-                                    </label>
-                                  </div>
-                            </div>
-                        <div class="col ">
-                            <textarea class="form-control mt-3 height2" id="exampleFormControlTextarea1" rows="5.5" >Type Your message here</textarea>
-                       
-                            <div class="d-grid gap-2 col-4 my-3 back1 rounded">
-                                <button class="btn text-white" type="button">GIVE US A SHOT</button>
-                              </div>
-                        </div> 
-                     
-                       
-                    </div>
-            </div>
-    </section>
-
-
-    
 
 
         <!-- ---------------------------------------------------crousal-------------------------------------- -->
@@ -507,11 +774,12 @@
         <section class="position-relative  p-5 ">
             <div class="container  p-5">
 
-                <img src="img/pizza2.png" alt="" class="img-fluid position-absolute bottom-0 end-0 d-none d-lg-block" width="300px">
-                    <div class="col-8  mx-auto">
-                        <div id="carouselExample" class="carousel slide">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
+                <img src="img/pizza2.png" alt="" class="img-fluid position-absolute bottom-0 end-0 d-none d-lg-block"
+                    width="300px">
+                <div class="col-8  mx-auto">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
                                 <div class="text-center">
                                     <i class="ri-double-quotes-l fs-4 color1"></i>
                                     <p class="text-danger">
@@ -520,18 +788,21 @@
                                         <i class="ri-star-fill"></i>
                                         <i class="ri-star-fill"></i>
                                         <i class="ri-star-fill"></i>
-                                    
+
                                     </p>
 
-                                    <p class="color1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, iure reprehenderit. Corrupti eius ullam soluta possimus. Rem laboriosam minima aspernatur soluta praesentium dolorum repudiandae, quam sit ipsum aliquam? Molestiae, temporibus.
+                                    <p class="color1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore,
+                                        iure reprehenderit. Corrupti eius ullam soluta possimus. Rem laboriosam minima
+                                        aspernatur soluta praesentium dolorum repudiandae, quam sit ipsum aliquam?
+                                        Molestiae, temporibus.
                                     </p>
 
                                     <p class="color1 fs-bold fs-4">-Noah kingon</p>
-                                    
+
                                 </div>
-                              
-                              </div>
-                              <div class="carousel-item">
+
+                            </div>
+                            <div class="carousel-item">
                                 <div class="text-center">
                                     <i class="ri-double-quotes-l fs-4 color1"></i>
                                     <p class="text-danger">
@@ -540,17 +811,18 @@
                                         <i class="ri-star-fill"></i>
                                         <i class="ri-star-fill"></i>
                                         <i class="ri-star-fill"></i>
-                                    
+
                                     </p>
 
-                                    <p class="color1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, iure reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    <p class="color1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore,
+                                        iure reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                     </p>
 
                                     <p class="color1 fs-bold fs-4">-Richard Hendriks</p>
-                                    
+
                                 </div>
-                              </div>
-                              <div class="carousel-item">
+                            </div>
+                            <div class="carousel-item">
                                 <div class="text-center">
                                     <i class="ri-double-quotes-l fs-4 color1"></i>
                                     <p class="text-danger">
@@ -559,94 +831,104 @@
                                         <i class="ri-star-fill"></i>
                                         <i class="ri-star-fill"></i>
                                         <i class="ri-star-fill"></i>
-                                    
+
                                     </p>
 
-                                    <p class="color1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, iure reprehenderit. Corrupti eius ullam soluta possimus. Rem laboriosam minima.
+                                    <p class="color1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore,
+                                        iure reprehenderit. Corrupti eius ullam soluta possimus. Rem laboriosam minima.
                                     </p>
 
                                     <p class="color1 fs-bold fs-4">-Lily Rose</p>
-                                    
-                                </div>
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                              <span class=" back4 rounded-4 p-2"  ><i class="ri-arrow-left-s-line"></i></span>
 
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                              <span class="back4 rounded-4 p-2" ><i class="ri-arrow-right-s-line"></i></span>
-                            </button>
-                          </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class=" back4 rounded-4 p-2"><i class="ri-arrow-left-s-line"></i></span>
+
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="back4 rounded-4 p-2"><i class="ri-arrow-right-s-line"></i></span>
+                        </button>
                     </div>
+                </div>
             </div>
         </section>
 
 
-      
-    <!-- ---------------------------------------------------footer-------------------------------------- -->
-    <footer class="back1 p-4">
-        <div class="container  p-3">
-            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
-                <div class="col  p-3 position-relative">
-                        <img src="img/pngfood2.png" alt="" class="position-absolute bottom--1 end-0 img-fluid imgnone" width="30.5%">
 
-                </div>
-                <div class="col  p-3">
-                    <img src="img/logo.png" alt="" class="p-t">
-                    <p class="h5 p-t-5 text-white">Want To Taste<br/>
-                        Our Food?</p>
+        <!-- ---------------------------------------------------footer-------------------------------------- -->
+        <footer class="back1 p-4">
+            <div class="container  p-3">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+                    <div class="col  p-3 position-relative">
+                        <img src="img/pngfood2.png" alt="" class="position-absolute bottom--1 end-0 img-fluid imgnone"
+                            width="30.5%">
+
+                    </div>
+                    <div class="col  p-3">
+                        <img src="img/logo.png" alt="" class="p-t">
+                        <p class="h5 p-t-5 text-white">Want To Taste<br />
+                            Our Food?</p>
                         <div class="d-grid gap-2 col-9 mt-4  ">
                             <button class="btn btn-warning color1" type="button">ORDER ONLINE</button>
-                          </div>
-                          
-                </div>
-                <div class="col  p-3 text-end textstart">
-                    <p class="h6 text-white textstart" >ABOUT</p>
+                        </div>
 
-                    <p class="color1 p-t-5   textstart">About</p>
-                    <p class="color1  textstart">Services</p>
-                    <p class="color1  textstart ">Careers</p>
-                    <p class="color1   textstart">Hire Us</p>
-                </div>
-                <div class="col  p-3 text-end textstart">
-                    <p class="h6 text-white  textstart" >RESOURCES
-                    </p>
+                    </div>
+                    <div class="col  p-3 text-end textstart">
+                        <p class="h6 text-white textstart">ABOUT</p>
 
-                    <p class="color1 p-t-5  textstart">Terms</p>
-                    <p class="color1   textstart">Help</p>
-                    <p class="color1   textstart">Privacy
-                    </p>
+                        <p class="color1 p-t-5   textstart">About</p>
+                        <p class="color1  textstart">Services</p>
+                        <p class="color1  textstart ">Careers</p>
+                        <p class="color1   textstart">Hire Us</p>
+                    </div>
+                    <div class="col  p-3 text-end textstart">
+                        <p class="h6 text-white  textstart">RESOURCES
+                        </p>
+
+                        <p class="color1 p-t-5  textstart">Terms</p>
+                        <p class="color1   textstart">Help</p>
+                        <p class="color1   textstart">Privacy
+                        </p>
 
 
                         <p class="textstart">
-                    <i class=" color1 p-r-5  ri-facebook-fill "></i>
-                    <i class=" color1 p-r-5  ri-instagram-line "></i>
-                    <i class=" color1 p-r-5  ri-google-fill  "></i>
-                    <i class=" color1 p-r-5  ri-glasses-fill  "></i>
-                </p>
+                            <i class=" color1 p-r-5  ri-facebook-fill "></i>
+                            <i class=" color1 p-r-5  ri-instagram-line "></i>
+                            <i class=" color1 p-r-5  ri-google-fill  "></i>
+                            <i class=" color1 p-r-5  ri-glasses-fill  "></i>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
 
-<footer class="bg-black">
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-12 p-2 text-center">
-                <p ><div class="color1 d-inline fs-bold">Made With</div> <div class="text-warning d-inline">♥</div> <div class="color1 d-inline fs-bold">By</div><div class="text-white d-inline">Themewagon</div></p>
+        <footer class="bg-black">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 p-2 text-center">
+                        <p>
+                        <div class="color1 d-inline fs-bold">Made With</div>
+                        <div class="text-warning d-inline">♥</div>
+                        <div class="color1 d-inline fs-bold">By</div>
+                        <div class="text-white d-inline">Themewagon</div>
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</footer>
+        </footer>
 
 
-    
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
