@@ -5,11 +5,16 @@
     font-family: "Merriweather", serif;
 }
 
-.bg-img{
+
+
+@media(min-width:992px){
+    .bg-img{
     background-image: url(../img/Vector.png);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 850px;
     width: 100%;
+}
 }
 
 .bg-img2{
@@ -37,6 +42,10 @@
 
 .color2{
     color: #ff806f !important;
+}
+
+.color3{
+    color: #9ca7b8;
 }
 
 
@@ -261,6 +270,22 @@ margin-top: 10%;
     width:600px !important;
 }
 
+
+.rot{
+    animation: rot 1s linear;
+    position: relative;
+}
+
+@keyframes rot{
+    from{
+        rotate: -90deg;
+        left: -300px;
+    }
+    to{
+        rotate: 0deg;
+        left: 0px;
+    }
+}
 
 
 

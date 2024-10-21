@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>restaurant</title>
 
+    <link rel="stylesheet" href="style/aos.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="webfonts/stylesheet.css">
     <link rel="stylesheet" href="style/slick.css">
     <link rel="stylesheet" href="style/slick-theme.css">
     <link rel="stylesheet" href="fonts/remixicon.css">
+  
 </head>
 
 <body>
@@ -180,7 +182,7 @@
 
     <!-- ---------------------------------------------------main-section-------------------------------------- -->
 
-    <section>
+    <!-- <section>
         <div class="container-fluid border">
             <div class="row ">
                 <div class="col-md-4 p-0 border border-warning d-lg-block">
@@ -205,13 +207,44 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-5 flex-column-reverse overflow-hidden bg-img ">
+                    <img src="img/plate.png" class="img-fluid rot">
+                </div>
+                <div class="col-xl-8 col-lg-8  col-md-8  col-sm-12 m-auto ps-3 t-center flex-column-reverse" data-aos="fade-up"  data-aos-duration="3000"
+                >
+                    <div class="p-l ">
+                        <h1>The Spectacle<b> Before Us</b><br>
+                            <b> Was Indeed</b> Sublime.
+                        </h1>
+                    </div>
+                    <p class="d-none d-md-block p-l">Apparently, we had reached a great height in the atmosphere, for<br>
+                        the sky was a dead black, and which lifts the horizon of the sea to <br>the level of the
+                        spectator on a hillside.
+                    </p>
+                    <div class="d-flex mt-4 just-center p-l">
+                        <div class="mx-2 ">
+                            <button class="btn btn-warning px-2 p-sm">ORDER ONLINE</button>
+                        </div>
+                        <div class="">
+                            <button class="btn btn-outline-warning px-2 p-sm">OUR LOCATION</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
 
 
-    <h4 class="text-center p-t-5 fw-bold">Menu</h4>
+    <h4 class="text-center p-t-5 fw-bold" data-aos="fade-up"  data-aos-duration="3000">Menu</h4>
 
-    <h1 class="text-center h1 fw-bold ">Taste Our Foods & Enjoy</h1>
+    <h1 class="text-center h1 fw-bold " data-aos="fade-up"  data-aos-duration="3000">Taste Our Foods & Enjoy</h1>
 
     <section class="my-5">
         <div class="container  my-5">
@@ -306,18 +339,45 @@
 
 
         <section>
-            <div class="container my-5">
-                    <div class="nav nav-underline justify-content-center">
-                        <div class="nav-item"><a  data-bs-toggle="tab" href="#one"  class="nav-link active">home</a></div>
-                        <div class="nav-item"><a  data-bs-toggle="tab" href="#two" class="nav-link">Lunch</a></div>
-                        <div class="nav-item"><a  data-bs-toggle="tab" href="#three" class="nav-link">dinner</a></div>
-                        <div class="nav-item"><a  data-bs-toggle="tab" href="#forth" class="nav-link">Dessert</a></div>
-                        <div class="nav-item"><a  data-bs-toggle="tab" href="#five" class="nav-link">Drinks</a></div>
+            <div class="container mt-5">
+                    <div class="nav nav-underline justify-content-center  border-bottom border-3">
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#one"  class="nav-link active">
+                            <div class="text-center">
+                                  <i class="ri-cup-fill fs-5 color3"></i>
+                            </div>
+                           <div class="color3">BREAKFAST</div> 
+                        </a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#two" class="nav-link" >
+                            <div class="text-center">
+                                <i class="ri-restaurant-line fs-5 color3"></i>
+                          </div>
+                          <div class="color3">Lunch</div>
+                        </a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#three" class="nav-link">
+                            <div class="text-center">
+                                <i class="ri-bowl-fill fs-5 color3"></i>
+                          </div>
+                          <div class="color3">Dinner</div>
+                        </a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#forth" class="nav-link">
+                            <div class="text-center">
+                                <i class="ri-cake-2-fill fs-5 color3"></i>
+                          </div>
+                         <div class="color3"> Desserts</div>
+                        </a></div>
+                        <div class="nav-item"><a  data-bs-toggle="tab" href="#five" class="nav-link">
+                            <div class="text-center">
+                                <i class="ri-drinks-2-fill fs-5 color3"></i>
+                          </div>
+                         <div class="color3">Drinks</div> 
+                        </a></div>
                     </div>
 
                     <div class="tab-content ">
                         <div class="tab-pane fade show active" id="one">
-                          <div class="container border p-4">
+                          <div class="container mt-5 back2  p-4 position-relative" data-aos="fade-up"  data-aos-duration="3000">
+                            <img src="img/egg.png" alt="" class="position-absolute top-0 end-0" width="18%">
+                            <img src="img/bread.png" alt="" class="position-absolute bottom-0 start-0 d-none d-md-block" width="32%">
                                 <div class="row row-cols-1 row-cols-lg-3 ">
                                     <div class="col border-end border-2 p-t-5  p-b">
                                         <div class="d-flex justify-content-between ">
@@ -419,16 +479,420 @@
                           </div>
                         </div>
                         <div class="tab-pane fade" id="two">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
+                            <div class="container mt-5 back2  p-4 position-relative"  data-aos="fade-right" >
+                                <img src="img/egg.png" alt="" class="position-absolute top-0 end-0" width="18%">
+                                <img src="img/bread.png" alt="" class="position-absolute bottom-0 start-0 d-none d-md-block" width="32%">
+                                    <div class="row row-cols-1 row-cols-lg-3 ">
+                                        <div class="col border-end border-2 p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">BREAKFAST BOWL</p>
+                                                <p class="color2 fw-bold">$8.50</p>
+                                            </div>
+                                            <p class="color1">Black Bean Cake, Greens, Tomato & <br/>
+                                                Avocado Pico drizzled with Lime<br/>
+                                                 Cream (Add egg $1)</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">EGG SANDWICH</p>
+                                                    <p class="color2 fw-bold">$7.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil <br/>
+                                                     Pesto, Arugula
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST BURRITO</p>
+                                                        <p class="color2 fw-bold">$9.50</p>
+                                                    </div>
+                                                    <p class="color1">Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado,<br/>
+                                                          Pico, & Lime Cream</p>
+                                        
+                                        </div>
+                                        <div class="col border-end border-2  p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">VEGGIE JAMMIE</p>
+                                                <p class="color2">$5.50</p>
+                                            </div>
+                                            <p class="color1">Everything Bagel with our Homemade<br/>
+                                                 Tofu Herb Spread, Cucumber Tomato, <br/>
+                                                 Red Onion, & Arugula</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BAGEL WITH CREAM CHEESE</p>
+                                                    <p class="color2 fw-bold">$6.00</p>
+                                                </div>
+                                                <p class="color1">Plain, Cranberry, or Everything</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST PASTRIES</p>
+                                                        <p class="color2 fw-bold">$9.00</p>
+                                                    </div>
+                                                    <p>Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado, <br/>
+                                                         Pico, & Lime Cream</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">FRIED EGG</p>
+                                                            <p class="color2">$9.50</p>
+                                                        </div>
+                                                        <p class="color1">Three Fried Eggs, house hot sauce,<br/>
+                                                             local cheddar mac, lettuce, pickle &<br/>
+                                                              onion on a sesame roll</p>
+                                        </div>
+    
+    
+                                        <div class="col  p-t-5  p-b">
+    
+                                            <div class="d-flex justify-content-between">
+                                                <p class="fw-bold">SMOKED SALMON BAGEL</p>
+                                                <p class="color2 fw-bold">$9.50</p>
+                                            </div>
+                                            <p class="color1">Smoked Salmon, Capers, House Pickled<br/>
+                                                 Red Onions, & Cream Cheese served on<br/>
+                                                 a Toasted Bagel</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BREAKFAST JAMMIE</p>
+                                                    <p class="color2 fw-bold">$6.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil<br/>
+                                                      Pesto, Arugula</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                        <p class="color2 fw-bold">$7.50
+    
+                                                        </p>
+                                                    </div>
+                                                    <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                         Salt on Toasted Multigrain</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                            <p class="color2 fw-bold">$6.50</p>
+                                                        </div>
+                                                        <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                            Salt on Toasted Multigrain</p>
+                                        </div>
+                                    </div>
+                              </div>
                         </div>
                         <div class="tab-pane fade" id="three">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
+                            <div class="container mt-5 back2  p-4 position-relative">
+                                <img src="img/egg.png" alt="" class="position-absolute top-0 end-0" width="18%">
+                                <img src="img/bread.png" alt="" class="position-absolute bottom-0 start-0 d-none d-md-block " width="32%">
+                                    <div class="row row-cols-1 row-cols-lg-3 ">
+                                        <div class="col border-end border-2 p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">BREAKFAST BOWL</p>
+                                                <p class="color2 fw-bold">$8.50</p>
+                                            </div>
+                                            <p class="color1">Black Bean Cake, Greens, Tomato & <br/>
+                                                Avocado Pico drizzled with Lime<br/>
+                                                 Cream (Add egg $1)</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">EGG SANDWICH</p>
+                                                    <p class="color2 fw-bold">$7.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil <br/>
+                                                     Pesto, Arugula
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST BURRITO</p>
+                                                        <p class="color2 fw-bold">$9.50</p>
+                                                    </div>
+                                                    <p class="color1">Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado,<br/>
+                                                          Pico, & Lime Cream</p>
+                                        
+                                        </div>
+                                        <div class="col border-end border-2  p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">VEGGIE JAMMIE</p>
+                                                <p class="color2">$5.50</p>
+                                            </div>
+                                            <p class="color1">Everything Bagel with our Homemade<br/>
+                                                 Tofu Herb Spread, Cucumber Tomato, <br/>
+                                                 Red Onion, & Arugula</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BAGEL WITH CREAM CHEESE</p>
+                                                    <p class="color2 fw-bold">$6.00</p>
+                                                </div>
+                                                <p class="color1">Plain, Cranberry, or Everything</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST PASTRIES</p>
+                                                        <p class="color2 fw-bold">$9.00</p>
+                                                    </div>
+                                                    <p>Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado, <br/>
+                                                         Pico, & Lime Cream</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">FRIED EGG</p>
+                                                            <p class="color2">$9.50</p>
+                                                        </div>
+                                                        <p class="color1">Three Fried Eggs, house hot sauce,<br/>
+                                                             local cheddar mac, lettuce, pickle &<br/>
+                                                              onion on a sesame roll</p>
+                                        </div>
+    
+    
+                                        <div class="col  p-t-5  p-b">
+    
+                                            <div class="d-flex justify-content-between">
+                                                <p class="fw-bold">SMOKED SALMON BAGEL</p>
+                                                <p class="color2 fw-bold">$9.50</p>
+                                            </div>
+                                            <p class="color1">Smoked Salmon, Capers, House Pickled<br/>
+                                                 Red Onions, & Cream Cheese served on<br/>
+                                                 a Toasted Bagel</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BREAKFAST JAMMIE</p>
+                                                    <p class="color2 fw-bold">$6.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil<br/>
+                                                      Pesto, Arugula</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                        <p class="color2 fw-bold">$7.50
+    
+                                                        </p>
+                                                    </div>
+                                                    <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                         Salt on Toasted Multigrain</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                            <p class="color2 fw-bold">$6.50</p>
+                                                        </div>
+                                                        <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                            Salt on Toasted Multigrain</p>
+                                        </div>
+                                    </div>
+                              </div>
                         </div>
                         <div class="tab-pane fade" id="forth">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
+                            <div class="container mt-5 back2  p-4 position-relative">
+                                <img src="img/egg.png" alt="" class="position-absolute top-0 end-0" width="18%">
+                                <img src="img/bread.png" alt="" class="position-absolute bottom-0 start-0 d-none d-md-block" width="32%">
+                                    <div class="row row-cols-1 row-cols-lg-3 ">
+                                        <div class="col border-end border-2 p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">BREAKFAST BOWL</p>
+                                                <p class="color2 fw-bold">$8.50</p>
+                                            </div>
+                                            <p class="color1">Black Bean Cake, Greens, Tomato & <br/>
+                                                Avocado Pico drizzled with Lime<br/>
+                                                 Cream (Add egg $1)</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">EGG SANDWICH</p>
+                                                    <p class="color2 fw-bold">$7.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil <br/>
+                                                     Pesto, Arugula
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST BURRITO</p>
+                                                        <p class="color2 fw-bold">$9.50</p>
+                                                    </div>
+                                                    <p class="color1">Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado,<br/>
+                                                          Pico, & Lime Cream</p>
+                                        
+                                        </div>
+                                        <div class="col border-end border-2  p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">VEGGIE JAMMIE</p>
+                                                <p class="color2">$5.50</p>
+                                            </div>
+                                            <p class="color1">Everything Bagel with our Homemade<br/>
+                                                 Tofu Herb Spread, Cucumber Tomato, <br/>
+                                                 Red Onion, & Arugula</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BAGEL WITH CREAM CHEESE</p>
+                                                    <p class="color2 fw-bold">$6.00</p>
+                                                </div>
+                                                <p class="color1">Plain, Cranberry, or Everything</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST PASTRIES</p>
+                                                        <p class="color2 fw-bold">$9.00</p>
+                                                    </div>
+                                                    <p>Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado, <br/>
+                                                         Pico, & Lime Cream</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">FRIED EGG</p>
+                                                            <p class="color2">$9.50</p>
+                                                        </div>
+                                                        <p class="color1">Three Fried Eggs, house hot sauce,<br/>
+                                                             local cheddar mac, lettuce, pickle &<br/>
+                                                              onion on a sesame roll</p>
+                                        </div>
+    
+    
+                                        <div class="col  p-t-5  p-b">
+    
+                                            <div class="d-flex justify-content-between">
+                                                <p class="fw-bold">SMOKED SALMON BAGEL</p>
+                                                <p class="color2 fw-bold">$9.50</p>
+                                            </div>
+                                            <p class="color1">Smoked Salmon, Capers, House Pickled<br/>
+                                                 Red Onions, & Cream Cheese served on<br/>
+                                                 a Toasted Bagel</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BREAKFAST JAMMIE</p>
+                                                    <p class="color2 fw-bold">$6.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil<br/>
+                                                      Pesto, Arugula</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                        <p class="color2 fw-bold">$7.50
+    
+                                                        </p>
+                                                    </div>
+                                                    <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                         Salt on Toasted Multigrain</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                            <p class="color2 fw-bold">$6.50</p>
+                                                        </div>
+                                                        <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                            Salt on Toasted Multigrain</p>
+                                        </div>
+                                    </div>
+                              </div>
                         </div>
                         <div class="tab-pane fade" id="five">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque, suscipit eos quasi nisi ullam. Itaque, fugit saepe blanditiis modi magni voluptate at voluptates vero tempora eum, ipsa delectus fugiat.
+                            <div class="container mt-5 back2  p-4 position-relative">
+                                <img src="img/egg.png" alt="" class="position-absolute top-0 end-0" width="18%">
+                                <img src="img/bread.png" alt="" class="position-absolute bottom-0 start-0 d-none d-md-block" width="32%">
+                                    <div class="row row-cols-1 row-cols-lg-3 ">
+                                        <div class="col border-end border-2 p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">BREAKFAST BOWL</p>
+                                                <p class="color2 fw-bold">$8.50</p>
+                                            </div>
+                                            <p class="color1">Black Bean Cake, Greens, Tomato & <br/>
+                                                Avocado Pico drizzled with Lime<br/>
+                                                 Cream (Add egg $1)</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">EGG SANDWICH</p>
+                                                    <p class="color2 fw-bold">$7.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil <br/>
+                                                     Pesto, Arugula
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST BURRITO</p>
+                                                        <p class="color2 fw-bold">$9.50</p>
+                                                    </div>
+                                                    <p class="color1">Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado,<br/>
+                                                          Pico, & Lime Cream</p>
+                                        
+                                        </div>
+                                        <div class="col border-end border-2  p-t-5  p-b">
+                                            <div class="d-flex justify-content-between ">
+                                                <p class="fw-bold">VEGGIE JAMMIE</p>
+                                                <p class="color2">$5.50</p>
+                                            </div>
+                                            <p class="color1">Everything Bagel with our Homemade<br/>
+                                                 Tofu Herb Spread, Cucumber Tomato, <br/>
+                                                 Red Onion, & Arugula</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BAGEL WITH CREAM CHEESE</p>
+                                                    <p class="color2 fw-bold">$6.00</p>
+                                                </div>
+                                                <p class="color1">Plain, Cranberry, or Everything</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">BREAKFAST PASTRIES</p>
+                                                        <p class="color2 fw-bold">$9.00</p>
+                                                    </div>
+                                                    <p>Three Scrambled Eggs, Cheddar, our<br/>
+                                                         Housemade Black Bean Cake, Avocado, <br/>
+                                                         Pico, & Lime Cream</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">FRIED EGG</p>
+                                                            <p class="color2">$9.50</p>
+                                                        </div>
+                                                        <p class="color1">Three Fried Eggs, house hot sauce,<br/>
+                                                             local cheddar mac, lettuce, pickle &<br/>
+                                                              onion on a sesame roll</p>
+                                        </div>
+    
+    
+                                        <div class="col  p-t-5  p-b">
+    
+                                            <div class="d-flex justify-content-between">
+                                                <p class="fw-bold">SMOKED SALMON BAGEL</p>
+                                                <p class="color2 fw-bold">$9.50</p>
+                                            </div>
+                                            <p class="color1">Smoked Salmon, Capers, House Pickled<br/>
+                                                 Red Onions, & Cream Cheese served on<br/>
+                                                 a Toasted Bagel</p>
+    
+    
+                                                 <div class="d-flex  justify-content-between">
+                                                    <p class="mt-4 fw-bold">BREAKFAST JAMMIE</p>
+                                                    <p class="color2 fw-bold">$6.50</p>
+                                                </div>
+                                                <p class="color1">Everything Bagel with Cream Cheese,<br/>
+                                                     Bacon, Tomato, Red Onion, Basil<br/>
+                                                      Pesto, Arugula</p>
+    
+                                                     <div class="d-flex  justify-content-between">
+                                                        <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                        <p class="color2 fw-bold">$7.50
+    
+                                                        </p>
+                                                    </div>
+                                                    <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                         Salt on Toasted Multigrain</p>
+    
+                                                          <div class="d-flex  justify-content-between">
+                                                            <p class="mt-4 fw-bold">AVOCADO TOAST</p>
+                                                            <p class="color2 fw-bold">$6.50</p>
+                                                        </div>
+                                                        <p class="color1">Crushed Avocado topped with MV Sea<br/>
+                                                            Salt on Toasted Multigrain</p>
+                                        </div>
+                                    </div>
+                              </div>
                         </div>
                     </div>
             </div>
@@ -442,7 +906,7 @@
                     <div class="col-md-6 col-sm-12 col-12 r d-none d-md-block">
                         <div class="d-flex justify-content-end">
                             <div class=" overflow-hidden position-absolute" style="bottom:0;">
-                                <img src="img/fried-clipart-transparent-background-7.png" style="width:300px;">
+                                <img src="img/fried-clipart-transparent-background-7.png" style="width:300px;" data-aos="fade-up"  data-aos-duration="2000">
                             </div>
                         </div>
 
@@ -471,15 +935,15 @@
                         <div class="col-xxl-8  textcentermin position-relative">
 
                             <img src="img/cateringillustration.png" alt=""
-                                class="img-fluid catering  d-none d-xxl-block">
+                                class="img-fluid catering  d-none d-xxl-block" data-aos="zoom-out" data-aos-duration="2000">
 
 
 
                             <div class="textcentermin">
-                                <p class="text-center  p-l-20 p-t-5  h3 color1 fw-bold textcentermin">Catering</p>
-                                <p class="text-center  p-l-28    h1 fw-bold textcentermin">We Manage Your Events</p>
+                                <p class="text-center  p-l-20 p-t-5  h3 color1 fw-bold textcentermin" data-aos="fade-up" data-aos-duration="2000">Catering</p>
+                                <p class="text-center  p-l-28    h1 fw-bold textcentermin" data-aos="fade-up" data-aos-duration="2000">We Manage Your Events</p>
 
-                                <p class="text-center p-l-28 p-t-5  textcentermin  color1">Allow our Chef to deliver the
+                                <p class="text-center p-l-28 p-t-5  textcentermin  color1" data-aos="zoom-in" data-aos-duration="2000" >Allow our Chef to deliver the
                                     perfect private dinner or cocktail party<br />
                                     experience in your home; or let us simply add a little extra flavor to <br />
                                     your next office meeting, boat trip, or beach picnic. By partnering with<br />
@@ -492,10 +956,10 @@
 
                         </div>
                         <div class="col-xxl-4  ">
-                            <div class="hireus border rounded shadow1 bg-white">
+                            <div class="hireus border rounded shadow1 bg-white" data-aos="zoom-out" data-aos-duration="2000">
                                 <div class="row ">
                                     <div class="col-12 col-xl-6 col-xxl-12">
-                                        <img src="img/pancake_PNG94.png" alt="" class="img-fluid p-l-15" width="80%">
+                                        <img src="img/pancake_PNG94.png" alt="" class="img-fluid p-l-15" width="80%" >
 
 
                                     </div>
@@ -578,19 +1042,23 @@
         <section class="height position-relative m-bott-5 ">
 
             <img src="img/soup.png" alt=""
-                class="img-fluid position-absolute top-50 end-0 translate-middle-y d-none d-lg-block" width="40%">
+             data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+                class="img-fluid position-absolute top-50 end-0 translate-middle-y d-none d-lg-block" width="40%"  >
             <div class="container ">
 
                 <div class="col-lg-7 p-4  ">
-                    <p class="color1 p-t fs-4 fw-bold">About Us</p>
-                    <p class="fs-2 fw-bold">Who Are We?</p>
-                    <p class="color1">We are a chain of theme restaurant founded in 1971 in London. In 1979,<br />
+                    <p class="color1 p-t fs-4 fw-bold" data-aos="fade-up" data-aos-duration="2000">About Us</p>
+                    <p class="fs-2 fw-bold" data-aos="fade-up" data-aos-duration="2000">Who Are We?</p>
+                    <p class="color1" data-aos="fade-up" data-aos-duration="2000">We are a chain of theme restaurant founded in 1971 in London. In 1979,<br />
                         the cafe began covering its walls with rock and roll memorabilia,
                         a<br /> tradition which expanded to others in the chain.</p>
-                    <button class="btn btn-warning color1 fs-bold ">LEARN MORE</button>
+                    <button class="btn btn-warning color1 fs-bold " data-aos="fade-up" data-aos-duration="2000">LEARN MORE</button>
 
 
-                    <div class="row row-cols-2 row-cols-md-3 my-3">
+                    <div class="row row-cols-2 row-cols-md-3 my-3" data-aos="fade-up" data-aos-duration="2000">
                         <div class="col  p-3">
                             <img src="img/user1.png" alt="" class="img-fluid rounded-circle " width="89%">
 
@@ -644,11 +1112,14 @@
 
 
         <section class="p-5 back2 position-relative ">
-            <img src="img/green.png" alt="" class="img-fluid position-absolute bottom-0 start-0 d-none d-xl-block">
+            <img src="img/green.png" alt="" class="img-fluid position-absolute bottom-0 start-0 d-none d-xl-block" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
             <div class="container  p-5  position-relative z-3">
                 <div class="text-center p-4">
-                    <p class="fs-4 color1 fs-bold">Location & Timing</p>
-                    <h1 class="p-b-5 fs-1 fs-bold h1">Contact with us</h1>
+                    <p class="fs-4 color1 fs-bold" data-aos="fade-up" data-aos-duration="2000">Location & Timing</p>
+                    <h1 class="p-b-5 fs-1 fs-bold h1"  data-aos="fade-up" data-aos-duration="2000">Contact with us</h1>
                 </div>
 
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
@@ -690,7 +1161,7 @@
                     <div class="col  p-2">
                         <div class="p-3  rounded shadow2 bg-white position-relative">
 
-                            <img src="img/kisspng-soup.png" alt="" class="position-absolute top-0 end-0 img-fluid"
+                            <img src="img/kisspng-soup.png" alt="" class="position-absolute top-0 end-0 img-fluid" data-aos="fade-down-left" 
                                 width="30%">
                             <p>Telephone support:</p>
                             <p class="color1">Monday to Saturday from<br />
@@ -730,8 +1201,8 @@
 
         <section class="  p-5 padding-0 back3">
             <div class="container  p-5 padding-0">
-                <h1 class="text-center p-2 fs-bold">Feel free to drop us a line!</h1>
-                <p class="text-center">Let's talk if you have any query or suggestion. We are open to learn <br /> from
+                <h1 class="text-center p-2 fs-bold"  data-aos="fade-up" data-aos-duration="2000">Feel free to drop us a line!</h1>
+                <p class="text-center"  data-aos="fade-up" data-aos-duration="2000">Let's talk if you have any query or suggestion. We are open to learn <br /> from
                     you. So don't hesitate to reach us anytime.</p>
 
 
@@ -775,7 +1246,7 @@
             <div class="container  p-5">
 
                 <img src="img/pizza2.png" alt="" class="img-fluid position-absolute bottom-0 end-0 d-none d-lg-block"
-                    width="300px">
+                    width="300px"  data-aos="fade-" data-aos-duration="2000">
                 <div class="col-8  mx-auto">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
@@ -864,7 +1335,7 @@
             <div class="container  p-3">
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
                     <div class="col  p-3 position-relative">
-                        <img src="img/pngfood2.png" alt="" class="position-absolute bottom--1 end-0 img-fluid imgnone"
+                        <img src="img/pngfood2.png" alt="" class="position-absolute bottom--1 end-0 img-fluid imgnone"  data-aos="fade-up" data-aos-duration="2000"
                             width="30.5%">
 
                     </div>
@@ -928,6 +1399,11 @@
         <script src="js/slick.min.js"></script>
         <script src="js/script.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/aos.js"></script>
+
+        <script>
+            AOS.init();
+          </script>
 
 </body>
 
