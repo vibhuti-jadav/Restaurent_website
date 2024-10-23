@@ -26,6 +26,14 @@
     justify-content: end !important;
     align-items: end !important;
 }
+
+.bg-img3{
+    background-image:url(../img/fullpage-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 300px;
+ 
+}
 @media (min-width:991px){
    .height{
     height: 100vh ;
@@ -68,6 +76,10 @@
 }
 .back6{
     background-color: #ff806f !important;
+}
+
+.back7{
+    background-color:#58ABD6 !important;
 }
 
 
@@ -311,6 +323,10 @@ margin-top: 10%;
     .b-none{
         border: none;
     }
+
+    .p-md-0{
+        padding: 0 !important;
+    }
    
 }
 
@@ -342,3 +358,6 @@ margin-top: 10%;
 
     
        
+.spin{
+    max-width: 350px !important;
+}

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+    <link rel="stylesheet" href="style/aos.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="webfonts/stylesheet.css">
+    <link rel="stylesheet" href="style/slick.css">
+    <link rel="stylesheet" href="style/slick-theme.css">
+    <link rel="stylesheet" href="fonts/remixicon.css">
+</head>
+<body>
+
+
+    <div class="reloade position-fixed w-100 back7 z-3 top-0 start-0" id="reloade" style="height: 100vh;">
+                
+
+        <div class="position-absolute top-50 start-50 translate-middle spin"  role="status">
+            <img class="img-fluid" src="img/egg.gif" alt="" >
+          </div>
+</div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg   bg-black" data-bs-theme="dark">
+            <div class="container ">
+                <a href="" class="navbar-brand fs-3">
+                    <img src="img/logo.png" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse gap-5 " id="navbar">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                data-bs-traget="#first-dropdown" data-bs-auto-close="outside">Home</a>
+                            <ul class="dropdown-menu " id="first-dropdown">
+                                <li><a href="index.html" class="dropdown-item">Header static</a></li>
+                                <li><a href="index.html" class="dropdown-item">Header slider</a></li>
+                                <li><a href="index.html" class="dropdown-item">Youtube background</a></li>
+                                <li><a href="index.html" class="dropdown-item">self hosted vidio</a></li>
+                                <li><a href="index.html" class="dropdown-item">RTL</a></li>
+                            </ul>
+                        </li>
+
+
+                    
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallary.html">Gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contect.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#examplemodal">
+                        MAKE ARESERVATION
+                    </button>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+
+  
+
+    <section>
+        <div class="modal fade" id="examplemodal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header position-relative">
+                        <div class="col-lg-6  p-2">
+                            <h5 class="p-l-5 border-warning border-start border-4 fw-bold">Make A<br />
+                                Reservation</h5>
+                        </div>
+                        <div class="col-lg-6  p-0 position-absolute start-50 top-0 start-0  bottom-0 start-0">
+                            <img src="img/pngfind.png" alt="" class="img-fluid rounded ">
+                        </div>
+                    </div>
+
+
+
+                    <div class="modal-body ">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-lg-6  p-2">
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+
+                                        <select type="text" class="form-select p-0" aria-label="default input example">
+                                            <option value="">Time</option>
+                                            <option value="">09:00 AM</option>
+                                            <option value="">10:00 AM</option>
+                                            <option value="">11:00 AM</option>
+                                            <option value="">12:00 AM</option>
+                                            <option value="">01:00 AM</option>
+                                            <option value="">02:00 AM</option>
+                                            <option value="">03:00 AM</option>
+                                            <option value="">04:00 AM</option>
+                                            <option value="">05:00 AM</option>
+                                            <option value="">06:00 AM</option>
+                                            <option value="">07:00 AM</option>
+                                            <option value="">08:00 AM</option>
+                                        </select>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6  p-2">
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="ri-calendar-line "></i></span>
+                                        <input type="text" class="form-control" placeholder="dd-mm-yyyy">
+                                        <span class="input-group-text"><i class="ri-calendar-2-fill"></i></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6  my-3">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6  my-3">
+                                    <input type="text" class="form-control" placeholder="phone">
+                                </div>
+
+
+                                <div class="col-12 ">
+                                    <select type="text" class="form-select " aria-label="default input example">
+                                        <option value="">person</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        <option value="">7</option>
+                                        <option value="">8</option>
+                                        <option value="">9</option>
+                                        <option value="">10</option>
+                                        <option value="">10+</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12  my-3">
+                                    <input type="text " class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal-footer back4">
+                        <p class="p-2 text-start text-body-secondary">Apparently we had reached a great height in the
+                            atmos,
+                            for the sky was a dead black, and the stars had twinkle.
+                            By which lifts the light.</p>
+
+                        <div class="d-grid gap-2 col-10 mx-auto back3 rounded">
+                            <button class="btn  text-body-secondary fw-bold " type="button">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <!-- <section>
+        <div class="container-fluid  bg-img3">
+                <div class="row">
+                    <div class="text-center ">
+                          <h1 class="text-warning p-t-5 h1">Gallery</h1> 
+                          <p class="text-white text-break ">TAKE A LOOK INSIDE</p>
+                    </div>
+                 
+                </div>
+        </div>
+    </section> -->
+
+
+
+     <!-- --------------------------------------contect------------------------------- -->
+
+
+
+     <section class="p-5 back2 position-relative ">
+        <img src="img/green.png" alt="" class="img-fluid position-absolute bottom-0 start-0 d-none " data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-sine">
+        <div class="container  p-5  position-relative">
+            <div class="text-center p-4">
+                <p class="fs-4 color1 fs-bold" data-aos="fade-up" data-aos-duration="2000">Location & Timing</p>
+                <h1 class="p-b-5 fs-1 fs-bold h1"  data-aos="fade-up" data-aos-duration="2000">Contact with us</h1>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col  p-2">
+                    <div class="p-3  rounded shadow2 bg-white">
+
+                        <div class="d-flex p-1">
+                            <i class="ri-map-2-line fs-5 color2"></i>
+                            <p class="d-inline text-start  color1   p-l-5">Av. Paz Soldán 290, San<br />
+                                Isidro, Lima 27 - Peru</p>
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="ri-phone-fill fs-5 color2"></i>
+                            <p class="d-inline text-start  color1   p-l-5">+511 442-2777</p>
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="ri-mail-unread-line fs-5 color2"></i>
+                            <p class="d-inline text-start p-l-5  color1 m-bottom-20  ">mail@restaurantpro.com</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col  p-2">
+                    <div class="p-3  rounded shadow2 bg-white">
+                        <p class="color2 fs-bold">Hours of service</p>
+
+                        <p class="p-0 m-bottom-1">Monday to Saturday</p>
+                        <p class="p-0 mb-0 m-top-1 color1">1:00 pm - 3:00 pm and</p>
+                        <p class="p-0  color1">7:00 pm - 11:00 pm</p>
+
+
+
+                        <p class="m-bottom-1 m-top-5">Monday to Saturday</p>
+                        <p class="p-0  m-top-1 color1">1:00 pm - 3:00 pm and</p>
+                    </div>
+                </div>
+                <div class="col  p-2">
+                    <div class="p-3  rounded shadow2 bg-white position-relative">
+
+                        <img src="img/kisspng-soup.png" alt="" class="position-absolute top-0 end-0 img-fluid" data-aos="fade-down-left" 
+                            width="30%">
+                        <p>Telephone support:</p>
+                        <p class="color1">Monday to Saturday from<br />
+                            9:00 am to 9:00 pm</p>
+
+                        <button class="btn btn-warning m-bottom-18 back6 border-0 text-white col-8 mt-1">MAKE A
+                            RESERVATION</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ---------------------------------------------------contect-end-------------------------------------- -->
+
+
+      <!-- ---------------------------------------------------map-start-------------------------------------- -->
+      <section class="back5 p-5">
+        <div class="container p-5">
+
+            <div class="row">
+                <div class="col-12  text-center p-5">
+                    <i class="ri-error-warning-fill fs-1"></i>
+                    <h5 class="my-4 fs-5">Oops! Something went wrong.</h5>
+                    <h6 class="fs-6">This page didn't load Google Maps correctly. See the JavaScript console for
+                        technical details.</h6>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+       <!-- ---------------------------------------------------map-end-------------------------------------- -->
+
+    <!-- ---------------------------------------------------mail-start-------------------------------------- -->
+
+    <section class="  p-5 padding-0 back3">
+        <div class="container  p-5 padding-0">
+            <h1 class="text-center p-2 fs-bold"  data-aos="fade-up" data-aos-duration="2000">Feel free to drop us a line!</h1>
+            <p class="text-center"  data-aos="fade-up" data-aos-duration="2000">Let's talk if you have any query or suggestion. We are open to learn <br /> from
+                you. So don't hesitate to reach us anytime.</p>
+
+
+            <div class="row row-cols-1 row-cols-md-2 ">
+                <div class="col ">
+                    <input class="form-control my-3 " type="text" placeholder="Your Name"
+                        aria-label="default input example">
+                    <input class="form-control my-3 " type="text" placeholder="Subject"
+                        aria-label="default input example">
+                    <input class="form-control my-3 " type="text" placeholder="Email Address"
+                        aria-label="default input example">
+                    <div class="form-check my-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Send me a copy
+                        </label>
+                    </div>
+                </div>
+                <div class="col ">
+                    <textarea class="form-control mt-3 height2" id="exampleFormControlTextarea1"
+                        rows="5.5">Type Your message here</textarea>
+
+                    <div class="d-grid gap-2 col-4 my-3 back1 rounded">
+                        <button class="btn text-white" type="button">GIVE US A SHOT</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+  <!-- ---------------------------------------------------mail-end-------------------------------------- -->
+
+
+
+    
+    
+          <!-- ---------------------------------------------------footer-------------------------------------- -->
+          <footer class="back1 p-4">
+            <div class="container  p-3">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+                    <div class="col  p-3 position-relative">
+                        <img src="img/pngfood2.png" alt="" class="position-absolute bottom--1 end-0 img-fluid imgnone"  data-aos="fade-up" data-aos-duration="2000"
+                            width="30.5%">
+
+                    </div>
+                    <div class="col  p-3">
+                        <img src="img/logo.png" alt="" class="p-t">
+                        <p class="h5 p-t-5 text-white">Want To Taste<br />
+                            Our Food?</p>
+                        <div class="d-grid gap-2 col-9 mt-4  ">
+                            <button class="btn btn-warning color1" type="button">ORDER ONLINE</button>
+                        </div>
+
+                    </div>
+                    <div class="col  p-3 text-end textstart">
+                        <p class="h6 text-white textstart">ABOUT</p>
+
+                        <p class="color1 p-t-5   textstart">About</p>
+                        <p class="color1  textstart">Services</p>
+                        <p class="color1  textstart ">Careers</p>
+                        <p class="color1   textstart">Hire Us</p>
+                    </div>
+                    <div class="col  p-3 text-end textstart">
+                        <p class="h6 text-white  textstart">RESOURCES
+                        </p>
+
+                        <p class="color1 p-t-5  textstart">Terms</p>
+                        <p class="color1   textstart">Help</p>
+                        <p class="color1   textstart">Privacy
+                        </p>
+
+
+                        <p class="textstart">
+                            <i class=" color1 p-r-5  ri-facebook-fill "></i>
+                            <i class=" color1 p-r-5  ri-instagram-line "></i>
+                            <i class=" color1 p-r-5  ri-google-fill  "></i>
+                            <i class=" color1 p-r-5  ri-glasses-fill  "></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <footer class="bg-black">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 p-2 text-center">
+                        <p>
+                        <div class="color1 d-inline fs-bold">Made With</div>
+                        <div class="text-warning d-inline">♥</div>
+                        <div class="color1 d-inline fs-bold">By</div>
+                        <div class="text-white d-inline">Themewagon</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
+<script>
+    setTimeout(() => {
+        let reload = document.getElementById("reloade");
+
+        reload.style.display="none";
+    }, 2000);
+</script>
+
+
+</body>
+</html>

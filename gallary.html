@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+    <link rel="stylesheet" href="style/aos.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="webfonts/stylesheet.css">
+    <link rel="stylesheet" href="style/slick.css">
+    <link rel="stylesheet" href="style/slick-theme.css">
+    <link rel="stylesheet" href="fonts/remixicon.css">
+</head>
+<body>
+
+    <div class="reloade position-fixed w-100 back7 z-3 top-0 start-0" id="reloade" style="height: 100vh;">
+                
+
+        <div class="position-absolute top-50 start-50 translate-middle spin"  role="status">
+            <img class="img-fluid" src="img/egg.gif" alt="" >
+          </div>
+</div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg   bg-black" data-bs-theme="dark">
+            <div class="container ">
+                <a href="" class="navbar-brand fs-3">
+                    <img src="img/logo.png" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse gap-5 " id="navbar">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                data-bs-traget="#first-dropdown" data-bs-auto-close="outside">Home</a>
+                            <ul class="dropdown-menu " id="first-dropdown">
+                                <li><a href="index.html" class="dropdown-item">Header static</a></li>
+                                <li><a href="index.html" class="dropdown-item">Header slider</a></li>
+                                <li><a href="index.html" class="dropdown-item">Youtube background</a></li>
+                                <li><a href="index.html" class="dropdown-item">self hosted vidio</a></li>
+                                <li><a href="index.html" class="dropdown-item">RTL</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallary.html">Gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contect.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#examplemodal">
+                        MAKE ARESERVATION
+                    </button>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+
+  
+
+    <section>
+        <div class="modal fade" id="examplemodal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header position-relative">
+                        <div class="col-lg-6  p-2">
+                            <h5 class="p-l-5 border-warning border-start border-4 fw-bold">Make A<br />
+                                Reservation</h5>
+                        </div>
+                        <div class="col-lg-6  p-0 position-absolute start-50 top-0 start-0  bottom-0 start-0">
+                            <img src="img/pngfind.png" alt="" class="img-fluid rounded ">
+                        </div>
+                    </div>
+
+
+
+                    <div class="modal-body ">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-lg-6  p-2">
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+
+                                        <select type="text" class="form-select p-0" aria-label="default input example">
+                                            <option value="">Time</option>
+                                            <option value="">09:00 AM</option>
+                                            <option value="">10:00 AM</option>
+                                            <option value="">11:00 AM</option>
+                                            <option value="">12:00 AM</option>
+                                            <option value="">01:00 AM</option>
+                                            <option value="">02:00 AM</option>
+                                            <option value="">03:00 AM</option>
+                                            <option value="">04:00 AM</option>
+                                            <option value="">05:00 AM</option>
+                                            <option value="">06:00 AM</option>
+                                            <option value="">07:00 AM</option>
+                                            <option value="">08:00 AM</option>
+                                        </select>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6  p-2">
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="ri-calendar-line "></i></span>
+                                        <input type="text" class="form-control" placeholder="dd-mm-yyyy">
+                                        <span class="input-group-text"><i class="ri-calendar-2-fill"></i></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6  my-3">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6  my-3">
+                                    <input type="text" class="form-control" placeholder="phone">
+                                </div>
+
+
+                                <div class="col-12 ">
+                                    <select type="text" class="form-select " aria-label="default input example">
+                                        <option value="">person</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        <option value="">7</option>
+                                        <option value="">8</option>
+                                        <option value="">9</option>
+                                        <option value="">10</option>
+                                        <option value="">10+</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12  my-3">
+                                    <input type="text " class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal-footer back4">
+                        <p class="p-2 text-start text-body-secondary">Apparently we had reached a great height in the
+                            atmos,
+                            for the sky was a dead black, and the stars had twinkle.
+                            By which lifts the light.</p>
+
+                        <div class="d-grid gap-2 col-10 mx-auto back3 rounded">
+                            <button class="btn  text-body-secondary fw-bold " type="button">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <section>
+        <div class="container-fluid  bg-img3">
+                <div class="row">
+                    <div class="text-center ">
+                          <h1 class="text-warning p-t-5 h1">Gallery</h1> 
+                          <p class="text-white text-break ">TAKE A LOOK INSIDE</p>
+                    </div>
+                 
+                </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------phots-start-------------------------------------- -->
+
+    <section class="back2  p-5 ">
+        <div class="container p-5 ">
+            <div class="row">
+                <div class="col-md-5 p-1 ">
+                    <img src="img/bigimg.jpg" alt="" class="img-fluid rounded">
+                </div>
+
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-4 p-2 ">
+                            <div class="">
+                                <img src="img/1.jpg" class="img-fluid rounded" alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-4 p-2 ">
+                            <div class="">
+                                <img src="img/2.jpg" class="img-fluid rounded" alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-4 p-2 ">
+                            <div class="">
+                                <img src="img/3.jpg" class="img-fluid rounded" alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-4 p-2 ">
+                            <div class="">
+                                <img src="img/4.jpg" class="img-fluid rounded" alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-4 p-2 ">
+                            <div class="">
+                                <img src="img/5.jpg" class="img-fluid rounded" alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-4 p-2 ">
+                            <div class="">
+                                <img src="img/6.jpg" class="img-fluid rounded" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- ---------------------------------------------------phots-end-------------------------------------- -->
+
+
+    
+
+    
+    
+          <!-- ---------------------------------------------------footer-------------------------------------- -->
+          <footer class="back1 p-4">
+            <div class="container  p-3">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+                    <div class="col  p-3 position-relative">
+                        <img src="img/pngfood2.png" alt="" class="position-absolute bottom--1 end-0 img-fluid imgnone"  data-aos="fade-up" data-aos-duration="2000"
+                            width="30.5%">
+
+                    </div>
+                    <div class="col  p-3">
+                        <img src="img/logo.png" alt="" class="p-t">
+                        <p class="h5 p-t-5 text-white">Want To Taste<br />
+                            Our Food?</p>
+                        <div class="d-grid gap-2 col-9 mt-4  ">
+                            <button class="btn btn-warning color1" type="button">ORDER ONLINE</button>
+                        </div>
+
+                    </div>
+                    <div class="col  p-3 text-end textstart">
+                        <p class="h6 text-white textstart">ABOUT</p>
+
+                        <p class="color1 p-t-5   textstart">About</p>
+                        <p class="color1  textstart">Services</p>
+                        <p class="color1  textstart ">Careers</p>
+                        <p class="color1   textstart">Hire Us</p>
+                    </div>
+                    <div class="col  p-3 text-end textstart">
+                        <p class="h6 text-white  textstart">RESOURCES
+                        </p>
+
+                        <p class="color1 p-t-5  textstart">Terms</p>
+                        <p class="color1   textstart">Help</p>
+                        <p class="color1   textstart">Privacy
+                        </p>
+
+
+                        <p class="textstart">
+                            <i class=" color1 p-r-5  ri-facebook-fill "></i>
+                            <i class=" color1 p-r-5  ri-instagram-line "></i>
+                            <i class=" color1 p-r-5  ri-google-fill  "></i>
+                            <i class=" color1 p-r-5  ri-glasses-fill  "></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <footer class="bg-black">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 p-2 text-center">
+                        <p>
+                        <div class="color1 d-inline fs-bold">Made With</div>
+                        <div class="text-warning d-inline">♥</div>
+                        <div class="color1 d-inline fs-bold">By</div>
+                        <div class="text-white d-inline">Themewagon</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
+<script>
+    setTimeout(() => {
+        let reload = document.getElementById("reloade");
+
+        reload.style.display="none";
+    }, 2000);
+</script>
+
+
+</body>
+</html>
